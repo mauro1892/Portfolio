@@ -204,6 +204,35 @@ h3 {
     height: 12rem;
 }
 
+/* SECTION WORK */
+.work-box-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-box {
+    width: 50rem;
+    height: 20rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 12px #00000034;
+    border-radius: 2rem;
+    margin-top: -15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.work-box-image{
+    width: 40rem;
+    height: 8rem;
+}
+
+
+
 /* MISCELLANEOUS */
 .section-box{
     width: 100%;
