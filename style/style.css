@@ -178,3 +178,52 @@ h3 {
 }
 
 
+/* SECTION ABOUT */
+
+.about-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--light-white);
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+}
+
+
+/* MISCELLANEOUS */
+.title-back-element {
+    font-size: 12rem;
+    color: var(--light-purple);
+    margin-top: -1%;
+    position: relative;
+}
+
+.title-front-element {
+    font-size: 5rem;
+    color: var(--dark-font);
+    position: absolute;
+}
+
+.bkacground-decorator-bottom{
+    width: 120%;
+    height: 22%;
+    rotate: 5deg;
+    background-color: var(--dark-purple);
+    position: absolute;
+    bottom: -6rem;
+    z-index: -1;
+}
+
+.bkacground-decorator-top{
+    width: 120%;
+    height: 22%;
+    rotate: 5deg;
+    background-color: var(--dark-purple);
+    position: absolute;
+    top: -6rem;
+    z-index: -1;
+}
