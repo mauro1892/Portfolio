@@ -192,7 +192,20 @@ h3 {
     z-index: -2;
 }
 
+/* SECTION SKILLS*/
 
+.skill-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: var(--light-white);
+    position: relative;
+    overflow: hidden;
+    z-index: -2;
+}
 
 /* MISCELLANEOUS */
 .title-back-element {
@@ -215,5 +228,15 @@ h3 {
     background-color: var(--dark-purple);
     position: absolute;
     bottom: -6rem;
+    z-index: -1;
+}
+
+.bkacground-decorator-top{
+    width: 120%;
+    height: 22%;
+    rotate: 5deg;
+    background-color: var(--dark-purple);
+    position: absolute;
+    top: -6rem;
     z-index: -1;
 }
